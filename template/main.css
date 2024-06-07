@@ -1,0 +1,50 @@
+/* ボタンのスタイル */
+.buttonlooks {
+  width: 150px;  /*em:ボタンの横幅を10文字分空ける  %で指定するとウィンドウに合わせて伸び縮みする*/
+  height:40px;   /*em:ボタンの縦幅を4文字分空ける*/
+  text-align: center;
+  background-color: #333;
+  border-radius: 30px;  /*角を丸くする*/
+  color: #9c2e2e;   /*文字列の色*/
+  font-size: 120%;   /*ボタン内の文字の大きさを変える*/
+  position: absolute; /*位置変えるのに必要*/
+  left: center;
+  top: 600px;
+}
+
+.titlelooks {
+  position: absolute;
+  padding: 0; /*値が広いと感覚が広くなる*/
+  border-top: 3px dashed #000; /*タイトルのボーダー線*/
+  border-bottom: 3px dashed #000;/*タイトルのボーダー線*/
+  font-size: 50px; /*テキストのサイズ*/
+  top: 0;
+  left: center;
+  font-family: "Lucida Console", Courier, monospace;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpeg'); /* 画像のパス */
+  background-size: cover; /* 画像をコンテナに合わせて表示 */
+  background-position: center; /* 画像を中央に配置 */
+  height: 100vh; /* ビューポートの高さいっぱいに表示 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgametext{
+  width: 250px;  /*em:ボタンの横幅を10文字分空ける  %で指定するとウィンドウに合わせて伸び縮みする*/
+  height:80px;  /*枠のサイズ*/
+  position: absolute; 
+  top: 500px; 
+  left: center; 
+  border: 4px dashed #eaeaea;
+  border-radius: 5px;
+  text-align: center; /*テキストの位置*/
+  font-size : 27px;
+  color: #661010;
+}
